@@ -1,0 +1,17 @@
+{
+    "name": "updu/mylibraries",
+    "description": "library that I often use",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldi Abdu Malik",
+            "email": "aldiabdul34@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"updu\\Mylibraries\\": "src/"}
+    },
+    "require": {}
+}
