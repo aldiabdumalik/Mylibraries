@@ -10,9 +10,12 @@ Bisa di install lewat composer dengan cara :
 
 contoh penggunaan :
 ```
-use updu\Mylibraries\RandomCodeGenerator
-$generate = new RandomCodeGenerator()
-$generate->CharNum(//Panjang Code)
+use updu\Mylibraries\RandomCodeGenerator;
+
+public function test(){
+    $generate = new RandomCodeGenerator();
+    echo $generate->CharNum(10);
+}
 ```
 
 terima kasih
